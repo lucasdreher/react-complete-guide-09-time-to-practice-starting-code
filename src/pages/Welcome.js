@@ -5,11 +5,11 @@ const Welcome = () => {
 	return (
 		<Fragment>
 			<h1 className="centered">Welcome to Great Quotes</h1>
-			<div className="centered">
+			<section className="centered">
 				<Link className="btn" to="/quotes">
 					Let's get started!
 				</Link>
-			</div>
+			</section>
 		</Fragment>
 	);
 };
