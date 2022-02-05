@@ -1,8 +1,16 @@
+import { Fragment } from 'react';
+import { Link } from 'react-router-dom';
+
 const Welcome = () => {
 	return (
-		<section>
-			<h1>Welcome to Great Quotes</h1>
-		</section>
+		<Fragment>
+			<h1 className="centered">Welcome to Great Quotes</h1>
+			<div className="centered">
+				<Link className="btn" to="/quotes">
+					Let's get started!
+				</Link>
+			</div>
+		</Fragment>
 	);
 };
 
