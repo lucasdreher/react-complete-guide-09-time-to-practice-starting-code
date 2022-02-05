@@ -10,11 +10,6 @@ const MainNavigation = () => {
 			</NavLink>
 			<nav className={classes.nav}>
 				<ul>
-					{/* <li>
-						<NavLink to="/welcome" activeClassName={classes.active}>
-							Great Quotes
-						</NavLink>
-					</li> */}
 					<li>
 						<NavLink to="/quotes" activeClassName={classes.active}>
 							All Quotes
