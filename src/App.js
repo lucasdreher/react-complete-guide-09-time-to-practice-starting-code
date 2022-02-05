@@ -1,7 +1,5 @@
-import { Fragment } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
-import MainNavigation from './components/layout/MainNavigation';
 import Welcome from './pages/Welcome';
 import Quotes from './pages/Quotes';
 import QuoteDetail from './pages/QuoteDetail';
