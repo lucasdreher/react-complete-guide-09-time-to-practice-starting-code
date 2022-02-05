@@ -2,10 +2,10 @@ import { Fragment } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 import MainNavigation from './components/layout/MainNavigation';
-import Welcome from './components/layout/pages/Welcome';
-import Quotes from './components/layout/pages/Quotes';
-import QuoteDetail from './components/layout/pages/QuoteDetail';
-import NewQuote from './components/layout/pages/NewQuote';
+import Welcome from './pages/Welcome';
+import Quotes from './pages/Quotes';
+import QuoteDetail from './pages/QuoteDetail';
+import NewQuote from './pages/NewQuote';
 
 function App() {
 	return (
